@@ -1,0 +1,8 @@
+{  
+  "proxy":{
+    "/api-b":{
+      "target": "http://localhost:8769",
+      "changeOrigin": true
+    }
+}
+}
